@@ -12,6 +12,7 @@
 
     @media (max-width:768px) {
       grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
     }
 
     &--is-active {
@@ -33,7 +34,7 @@
     @media (max-width: 768px) {
       white-space: nowrap;
       overflow-x: scroll;
-      padding-left: 20px;
+      padding-left: 40px;
     }
 
     &__button {
@@ -53,6 +54,7 @@
 
       @media (max-width: 768px) {
         font-size: 16px;
+        margin: 0 2vw;
       }
     }
   }
